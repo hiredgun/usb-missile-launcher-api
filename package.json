@@ -1,0 +1,15 @@
+{
+    "name": "usb-missile-launcher-api",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.16.4",
+        "node-hid": "^0.7.7",
+        "nodemon": "^1.18.10",
+        "debug": "^4.1.1"
+    },
+    "scripts": {
+        "start": "DEBUG=MISSILE:API nodemon server.js"
+    }
+}
